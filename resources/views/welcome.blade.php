@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    My first laravel!
+    <h1>My first laravel!</h1>
+    <a href='/about'>About</a>
 </body>
 </html>
