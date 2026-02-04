@@ -10,9 +10,9 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ipsa voluptates error sunt architecto, sequi adipisci ex iste impedit id doloremque a fugiat suscipit quia laborum possimus sed molestiae illo.</p>
     <a href='/'>Home</a>
     <br>
-    
+
     @foreach($users as $user)
-        {{ $user->name }}, 
+        {{ $user->name }}
     @endforeach
     <br>
     @foreach($cars as $car)
